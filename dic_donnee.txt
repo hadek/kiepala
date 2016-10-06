@@ -1,0 +1,202 @@
+Dictionnaire de données 
+
+Nom : IdEleve
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : Nom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : Prenom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : DateDeNaissance
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : Adresse
+Type : Text
+Taille : 25,0
+Commentaire : 
+
+Nom : NumTelPerso
+Type : Varchar
+Taille : 12,0
+Commentaire : 
+
+Nom : NumTelResp
+Type : Varchar
+Taille : 12,0
+Commentaire : 
+
+Nom : Mail
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : LienPhoto
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : IdVille
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : CodePostal
+Type : Int
+Taille : 5,0
+Commentaire : 
+
+Nom : NomVille
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : IdProf
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : NomProf
+Type : Varchar
+Taille : 50,0
+Commentaire : 
+
+Nom : PrenomProf
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : MailProf
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : NumTel
+Type : Varchar
+Taille : 12,0
+Commentaire : 
+
+Nom : IdDate
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : Ddate
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : IdAdmin
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : NomAdmin
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : PrenomAdmin
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : Fonction
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : Statut
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : IdJustificatif
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : LienJustificatif
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : DateDebut
+Type : Datetime
+Taille : 25,0
+Commentaire : 
+
+Nom : DateFin
+Type : Datetime
+Taille : 25,0
+Commentaire : 
+
+Nom : IdPoss
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : IdAbsence
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : HeureD
+Type : Time
+Taille : 25,0
+Commentaire : 
+
+Nom : Idtraite
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : StatutTraitement
+Type : Bool
+Taille : 25,0
+Commentaire : 
+
+Nom : IdClasse
+Type : Varchar
+Taille : 22,0
+Commentaire : 
+
+Nom : Effectif
+Type : Int
+Taille : 2,0
+Commentaire : 
+
+Nom : HeureF
+Type : Time
+Taille : 25,0
+Commentaire : 
+
+Nom : IdMatiere
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : NomMatiere
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : IdVille
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : IdClasse
+Type : Auto_increment
+Taille : 22,0
+Commentaire : 
+
