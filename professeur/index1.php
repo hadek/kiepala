@@ -8,9 +8,14 @@
 	<title>
 		KIEPALA : gestion des absences dans votre établissement 
 	</title>
+	<style>
+  p {
+    background: yellow;
+  }
+  </style>
 	<!-- La feuille de styles "base.css" doit être appelée en premier. -->
-	<link rel="stylesheet" type="text/css" href="../../css/base.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="../../css/modele04.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/base.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../css/modele04.css" media="screen" />
 	<link rel="stylesheet" media="screen and (max-width: 1280px)" href="../../css/petite_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

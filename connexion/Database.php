@@ -67,7 +67,7 @@ class Connexion extends PDO
     { 
         $result = parent::prepare($reqSelect); 
         $result->execute(); 
-        $resultat = $result->fetchAll(); 
+        $resultat = $result->fetchAll(PDO::FETCH_ASSOC); 
         return $resultat; 
     } 
     /**

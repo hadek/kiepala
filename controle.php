@@ -19,7 +19,7 @@
 									//print_r($tableau);
 				$verif = $PDO->selectClause($req,$tableau);
 			    //print_r($verif); die();
-    			if ($verif['verif']==1){
+    			if ($verif[0]['verif']==1){
     				
         			$_SESSION['prof'] = true;
         			$_SESSION['IdProf'] = $verif['IdProf'];

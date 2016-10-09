@@ -1,8 +1,8 @@
 <form action="index1.php?menup=2" method="POST">
 <table>
 <tr><td>
-<p>Date: <input type="text" id="datepicker" size="30" name="Ddate"></p></td></tr>
- <tr><td>
+<p>Date: <input type="text" id="datepicker" size="30" name="Ddate" value="<?php echo date('20y-m-d'); ?>">Cliquez pour changer la date du jour</p></td></tr>
+ <tr><td> 
  Veuillez saisir votre classe<p>
  <select name="IdClasse" class="inscriptionInput">
 
