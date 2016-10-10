@@ -2,6 +2,7 @@
 		$action = 'ajouter';
 		$table = "fichier";
 		$fichier = $_FILES['fichier']['tmp_name'];
+		//
 		//print $fichier;
 		//$production = $_POST['production'];
 		//$creertable = $_POST['creertable'];
