@@ -1,11 +1,19 @@
 <?php
 session_start();
-//print_r($_POST);
-$abs=$_POST['abs'];
-$ret=$_POST['ret'];
+
+$abs =array();
+$ret=array();
+for($i=0;$i<$_POST['i'];$i++){
+  $iden=explode('.', $_POST[$i]);
+  if($iden[0]== 'a')  $abs[] =$iden[1];
+  if($iden[0]== 'r')  $ret[] =$iden[1];
+}
+
+
 if($abs==NULL AND $ret == NULL){
     echo "vous n'avez pas saisi les élèves absents ou en retard";
 }else{
+
     //connexion
     $Ddate=htmlspecialchars($_POST['Ddate']);
     //var_dump($abs, $expression = null);
@@ -20,7 +28,7 @@ if($abs==NULL AND $ret == NULL){
 	$result = $PDO->selectClause($req,$tableau);
 	//print_r($verif); die();
     //print_r($result);
-    $IdDate=$result['IdDate'];
+    $IdDate=$result[0]['IdDate'];
     //Absence
     if($abs){
         foreach($abs as $valeur){      
