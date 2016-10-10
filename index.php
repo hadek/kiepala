@@ -1,6 +1,5 @@
 ﻿ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
     <head>
-
         <meta charset="utf-8" />
         <title>Kiepala - Gestion absence St-Jo</title>
    		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
