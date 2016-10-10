@@ -18,6 +18,14 @@
 
 
 <?php
+	// CONTROLE DE SESSION
+	session_start();
+	if(!isset($_SESSION['ADMIN']))
+	{
+		header("location:../index.php");
+		die();
+	}
+	
 	$connectionFile = $_SERVER['DOCUMENT_ROOT'] . "connexion/Database.php";
 	include($connectionFile);
 
